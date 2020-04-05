@@ -1,0 +1,43 @@
+td{
+  height: 120px;
+  width: 120px;
+  text-align: center;
+  border: 3px solid black;
+  font-size: 75px;
+}
+.jumbotron{
+  padding: 10px;
+  background-color: #b2eaeb;
+}
+.container-fluid{
+  background-color: #00ffab;
+}
+
+table{
+  padding: 20px;
+}
+h1
+{
+  text-align: center;
+  color: blue;
+}
+
+p{
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+.container-fluid
+{
+  padding: 10px;
+}
+#symbol
+{
+  text-align: right;
+  color: black;
+  font-weight: bold;
+}
+.btn btn-primary
+{
+  align-self: center;
+}
