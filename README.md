@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Tic-Tac-Toe made using HTML,CSS,Bootstrap and JavaScript.
 
-You can use the [editor on GitHub](https://github.com/kevinknight09/TIC_TAC_TOE-using-frontend-stack/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Play 1 v 1 Tic-Tac-Toe for as much time you want.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+While making the project traversing through the table , was a bit to difficult so I am attaching the code here 
 
-### Markdown
+***
+```javascript
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+for(var row=0;row<3;row++)
+  {
+    for(var col=0;col<3;col++)
+    {
+      table.eq(rowindex).find('td').eq(colindex).text("");
+     }
+      
+    }
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
+***
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+>Do support the project
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kevinknight09/TIC_TAC_TOE-using-frontend-stack/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+>Star if you like it .
